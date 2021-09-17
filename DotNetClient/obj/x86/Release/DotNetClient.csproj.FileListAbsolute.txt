@@ -1,0 +1,10 @@
+O:\Viz Studio 2008\Projects\XslTransformer\Client\bin\x86\Release\Client.exe
+O:\Viz Studio 2008\Projects\XslTransformer\Client\bin\x86\Release\Client.pdb
+O:\Viz Studio 2008\Projects\XslTransformer\Client\bin\x86\Release\XslTransformer.dll
+O:\Viz Studio 2008\Projects\XslTransformer\Client\bin\x86\Release\XslTransformer.pdb
+O:\Viz Studio 2008\Projects\XslTransformer\Client\obj\x86\Release\ResolveAssemblyReference.cache
+O:\Viz Studio 2008\Projects\XslTransformer\Client\obj\x86\Release\Client.Form1.resources
+O:\Viz Studio 2008\Projects\XslTransformer\Client\obj\x86\Release\Client.Properties.Resources.resources
+O:\Viz Studio 2008\Projects\XslTransformer\Client\obj\x86\Release\DotNetClient.csproj.GenerateResource.Cache
+O:\Viz Studio 2008\Projects\XslTransformer\Client\obj\x86\Release\Client.exe
+O:\Viz Studio 2008\Projects\XslTransformer\Client\obj\x86\Release\Client.pdb

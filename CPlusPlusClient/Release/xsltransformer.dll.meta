@@ -1,0 +1,55 @@
+Assembly XslTransformer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dbeb5b604d47257a: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Interface XslTransformer.IEngine: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String ToString 'get ' : 
+    System.String XmlFile 'get set' : 
+    System.String XslFile 'get set' : 
+    System.String HtmlFile 'get set' : 
+    System.String DotNetString 'get set' : 
+  Methods:
+    get_ToString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_XmlFile(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_XmlFile(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_XslFile(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_XslFile(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_HtmlFile(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_HtmlFile(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Transform(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Display(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Validate(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_DotNetString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_DotNetString(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class XslTransformer.Engine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    XslTransformer.IEngine
+  Properties:
+    System.String ToString 'get ' : 
+    System.String XmlFile 'get set' : 
+    System.String XslFile 'get set' : 
+    System.String HtmlFile 'get set' : 
+    System.String DotNetString 'get set' : 
+  Methods:
+    get_ToString(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_XmlFile(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_XmlFile(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_XslFile(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_XslFile(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_HtmlFile(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_HtmlFile(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Transform(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Display(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Validate(Boolean): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_DotNetString(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DotNetString(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName

@@ -1,0 +1,6 @@
+O:\Viz Studio 2008\Projects\XslTransformer\XslTransformer\bin\x86\Release\XslTransformer.dll
+O:\Viz Studio 2008\Projects\XslTransformer\XslTransformer\bin\x86\Release\XslTransformer.pdb
+O:\Viz Studio 2008\Projects\XslTransformer\XslTransformer\bin\x86\Release\XslTransformer.tlb
+O:\Viz Studio 2008\Projects\XslTransformer\XslTransformer\obj\x86\Release\ResolveAssemblyReference.cache
+O:\Viz Studio 2008\Projects\XslTransformer\XslTransformer\obj\x86\Release\XslTransformer.dll
+O:\Viz Studio 2008\Projects\XslTransformer\XslTransformer\obj\x86\Release\XslTransformer.pdb

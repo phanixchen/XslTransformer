@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dgn-chronographer>
+  <elements>
+    <element id="3003">
+      <element-type />
+      <last-modified>2011-02-28T16:15:24</last-modified>
+      <file-name>\\Server\ExampleFolder\dgn\Chronographer Test1.dgn</file-name>
+      <model-name>Default</model-name>
+      <level-name>Dated Text</level-name>
+    </element>
+    <element id="3004">
+      <element-type />
+      <last-modified>2011-03-01T15:29:10</last-modified>
+      <file-name>\\Server\ExampleFolder\dgn\Chronographer Test1.dgn</file-name>
+      <model-name>Default</model-name>
+      <level-name>Dated Text</level-name>
+    </element>
+    <element id="2867">
+      <element-type />
+      <last-modified>2011-02-28T16:15:57</last-modified>
+      <file-name>\\Server\ExampleFolder\dgn\Chronographer Ref1.dgn</file-name>
+      <model-name>Default</model-name>
+      <level-name>Dated Text</level-name>
+    </element>
+    <element id="2868">
+      <element-type />
+      <last-modified>2011-03-01T15:29:44</last-modified>
+      <file-name>\\Server\ExampleFolder\dgn\Chronographer Ref1.dgn</file-name>
+      <model-name>Default</model-name>
+      <level-name>Dated Text</level-name>
+    </element>
+    <start-date>2011-02-28T00:00:00</start-date>
+    <end-date>2011-03-01T22:26:43</end-date>
+  </elements>
+</dgn-chronographer>

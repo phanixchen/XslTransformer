@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XslTransformer</name>
+    </assembly>
+    <members>
+        <member name="T:XslTransformer.FileChecker">
+             <summary>   File checker provides a service to verify that a file or folder exists. </summary>
+            
+             <remarks>   V 8i, 02/03/2011. </remarks>
+        </member>
+        <member name="T:XslTransformer.Engine">
+             <summary>   The XmlTransformer.Engine processes an XML data file
+             			using XSL rules to create an HTML output file.
+             			<para>Usage: set the three file names, then call the Transform method.</para>. 
+             			<para>The Engine will complain if either of the two input files does not exist,
+             				  or if the specified folder of the output file does not exist.</para>. 
+             				  </summary>
+            
+             <remarks>   V 8i, 02/03/2011. </remarks>
+        </member>
+        <member name="T:XslTransformer.IEngine">
+             <summary>   The XmlTransformer.Engine processes an XML data file
+             			using XSL rules to create an HTML output file.
+             			<para>Usage: set the three file names, then call the Transform method.</para>. 
+             			<para>The Engine will complain if either of the two input files does not exist,
+             				  or if the specified folder of the output file does not exist.</para>. 
+             				  </summary>
+            
+             <remarks>   V 8i, 02/03/2011. </remarks>
+        </member>
+        <member name="M:XslTransformer.IEngine.Transform">
+            <summary>   Transforms the XML input using the XSL rules to create the HTML output </summary>
+        </member>
+        <member name="M:XslTransformer.IEngine.Display">
+            <summary>  Displays the HTML output in the default web browser </summary>
+        </member>
+        <member name="M:XslTransformer.IEngine.Validate(System.Boolean)">
+            <summary>  Verifies that necessary files exist and that the output folder exists.</summary>
+            <remarks>If argument <code>showAlert</code> is true, pop a message box</remarks>
+        </member>
+        <member name="P:XslTransformer.IEngine.ToString">
+            <remarks>
+            DispId(0) is default COM property
+            </remarks>
+        </member>
+        <member name="P:XslTransformer.IEngine.XmlFile">
+            <summary>   Gets or sets the input XML file </summary>
+        </member>
+        <member name="P:XslTransformer.IEngine.XslFile">
+            <summary>   Gets or sets the input XSL transform file </summary>
+        </member>
+        <member name="P:XslTransformer.IEngine.HtmlFile">
+            <summary>   Gets or sets the output HTML file </summary>
+        </member>
+        <member name="P:XslTransformer.IEngine.DotNetString">
+            <summary>This interface member is not exposed to COM.</summary>
+            <remarks>An alternative ToString</remarks>
+        </member>
+        <member name="M:XslTransformer.Engine.#ctor">
+            <summary>
+            Default constructor for a XslTransformer::Engine instance.
+            This parameterless constructor is required by COM
+            </summary>
+        </member>
+        <member name="M:XslTransformer.Engine.Transform">
+            <summary>
+            Transform the input XML file using the XSL rules to create the HTML output
+            </summary>
+        </member>
+        <member name="M:XslTransformer.Engine.Display">
+            <summary>
+            Display the HTML output in the default browser
+            </summary>
+        </member>
+        <member name="M:XslTransformer.Engine.Validate(System.Boolean)">
+            <summary>
+            Verify that XML and XSL files exist and that the HTML output folder exists
+            </summary>
+            <returns>True if files &amp; folder exist</returns>
+        </member>
+        <member name="P:XslTransformer.Engine.ToString">
+            <summary>
+            Describe this XslTransformer Engine
+            </summary>
+        </member>
+        <member name="P:XslTransformer.Engine.XmlFile">
+            <summary>
+            Get/set the XML File Name
+            </summary>
+        </member>
+        <member name="P:XslTransformer.Engine.XslFile">
+            <summary>
+            Get/set the XSL File Name
+            </summary>
+        </member>
+        <member name="P:XslTransformer.Engine.HtmlFile">
+            <summary>
+            Get/set the HTML File Name
+            </summary>
+        </member>
+        <member name="P:XslTransformer.Engine.DotNetString">
+            <summary>
+            This interface property works only with a .NET client
+            </summary>
+        </member>
+    </members>
+</doc>

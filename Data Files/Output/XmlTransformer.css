@@ -1,0 +1,52 @@
+/*	XmlTransformer stylesheet 									*/
+/*	<LINK REL=stylesheet HREF=XmlTransformer.css TYPE=text/css >	*/
+
+BODY	{ font-style: normal; font-weight: normal; line-height: 150%;
+	      color: teal; background-color: lightsteelblue; font-family: Verdana; font-size: 10pt	}
+P		{ font-style: normal; font-weight: normal; line-height: 150%;
+	      font-family: Verdana; font-size: 10pt; color: black; }
+A		{ font-family: Verdana, sanserif; font-size: 10pt; color: blue	}
+A.address	{  font-family: Verdana; font-size: 10pt; line-height: 110%; background-color: lightsteelblue;
+			color: midnightblue; cellpadding: 5;	}
+
+H1		{ color: blue; font-style: italic 				}
+H2		{ color: mediumblue; font-style: normal 		}
+
+TABLE	{  font-family: Verdana; font-size: 10pt; line-height: 110%; 
+		background-color: lightsteelblue;
+			color: midnightblue; cellpadding: 5;	 }
+
+TABLE.address	{  font-family: Verdana; font-size: 10pt; line-height: 110%; background-color: lightsteelblue;
+			color: midnightblue; cellpadding: 5;	}
+
+TABLE:caption	{ line-height: 150%; color: darkorchid; font-size: 16pt			}
+
+TD	{  	border-width: 1px;
+	border-spacing: 2px;
+	padding: 3px;
+	border-style: groove; 
+	/* border-color: #808080; */
+	border-collapse: separate;
+	/* background-color: #ffffff; */
+ }
+
+TABLE.address TD	{  	border-width: 1px;
+	border-spacing: 2px;
+	padding: 3px;
+	border-style: none; 
+	/* border-color: #808080; */
+	border-collapse: separate;
+	/* background-color: #ffffff; */
+ }
+
+TABLE.header TD	{  	border-width: 1px;
+	border-spacing: 2px;
+	padding: 3px;
+	border-style: none; 
+	/* border-color: #808080; */
+	border-collapse: separate;
+	/* background-color: #ffffff; */
+ }
+
+SPAN.la { font-family: "Times New Roman"; font-size: 22pt; line-height: 120%; color: dodgerblue; }
+SPAN.product { font-family: Verdana; font-size: 18pt; line-height: 120%; color: darkslateblue; }
