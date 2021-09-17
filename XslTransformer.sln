@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XslTransformer", "XslTransformer\XslTransformer.csproj", "{1B62E35D-0D89-4F08-96FE-BBD78277C57F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetClient", "Client\DotNetClient.csproj", "{1FD4FCD9-E7AC-4B74-BAA0-495DC1A9396A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetClient", "DotNetClient\DotNetClient.csproj", "{1FD4FCD9-E7AC-4B74-BAA0-495DC1A9396A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPlusPlusClrClient", "CPlusPlusClient\CPlusPlusClient.vcxproj", "{31E680A6-761E-49BA-8879-F5A3524B3558}"
 EndProject
